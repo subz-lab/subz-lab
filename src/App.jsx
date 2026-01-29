@@ -30,7 +30,8 @@ const ScrollToTop = () => {
 function App() {
     // Construct full paths
     const framePaths = useMemo(() => {
-        return frames.map(frame => `/images/${frame}`);
+        const baseUrl = import.meta.env.BASE_URL;
+        return frames.map(frame => `${baseUrl}images/${frame}`);
     }, []);
 
     const { images, progress, loaded } = usePreloadImages(framePaths);
