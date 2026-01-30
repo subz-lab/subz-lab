@@ -15,6 +15,7 @@ import frames from './frames.json';
 import Home from './pages/Home';
 const ProjectsPage = React.lazy(() => import('./pages/ProjectsPage'));
 const ExperiencePage = React.lazy(() => import('./pages/ExperiencePage'));
+const SkillsPage = React.lazy(() => import('./pages/SkillsPage'));
 const BlogPage = React.lazy(() => import('./pages/BlogPage'));
 const Footer = React.lazy(() => import('./components/sections/Footer'));
 
@@ -83,6 +84,7 @@ function App() {
                                 <Route path="/" element={<Home images={images} />} />
                                 <Route path="/projects" element={<ProjectsPage />} />
                                 <Route path="/experience" element={<ExperiencePage />} />
+                                <Route path="/skills" element={<SkillsPage />} />
                                 <Route path="/blog" element={<BlogPage />} />
                             </Routes>
                         </Suspense>

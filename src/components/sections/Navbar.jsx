@@ -41,7 +41,7 @@ const Navbar = () => {
     // Define links: mix of sections and pages
     const links = [
         { name: 'About', path: '/', isSection: true, id: 'about' },
-        { name: 'Skills', path: '/', isSection: true, id: 'skills' },
+        { name: 'Skills', path: '/skills', isSection: false },
         { name: 'Projects', path: '/projects', isSection: false },
         { name: 'Experience', path: '/experience', isSection: false },
         { name: 'Blog', path: '/blog', isSection: false },
