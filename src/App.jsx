@@ -15,7 +15,7 @@ import frames from './frames.json';
 import Home from './pages/Home';
 const ProjectsPage = React.lazy(() => import('./pages/ProjectsPage'));
 const ExperiencePage = React.lazy(() => import('./pages/ExperiencePage'));
-const SkillsPage = React.lazy(() => import('./pages/SkillsPage'));
+const SkillsPage = React.lazy(() => import('./pages/Skills'));
 const BlogPage = React.lazy(() => import('./pages/BlogPage'));
 const Footer = React.lazy(() => import('./components/sections/Footer'));
 
