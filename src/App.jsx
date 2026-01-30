@@ -17,6 +17,7 @@ const ProjectsPage = React.lazy(() => import('./pages/ProjectsPage'));
 const ExperiencePage = React.lazy(() => import('./pages/ExperiencePage'));
 const SkillsPage = React.lazy(() => import('./pages/Skills'));
 const BlogPage = React.lazy(() => import('./pages/BlogPage'));
+const ContactPage = React.lazy(() => import('./pages/Contact'));
 const Footer = React.lazy(() => import('./components/sections/Footer'));
 
 // Scroll to top on route change
@@ -86,6 +87,7 @@ function App() {
                                 <Route path="/experience" element={<ExperiencePage />} />
                                 <Route path="/skills" element={<SkillsPage />} />
                                 <Route path="/blog" element={<BlogPage />} />
+                                <Route path="/contact" element={<ContactPage />} />
                             </Routes>
                         </Suspense>
                     </main>

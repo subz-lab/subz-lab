@@ -95,10 +95,7 @@ const Navbar = () => {
                 <li
                     className="px-4 py-2 rounded-full text-white cursor-pointer hover:opacity-90 transition-opacity"
                     style={{ backgroundColor: config.theme.accent }}
-                    onClick={() => {
-                        const el = document.getElementById('footer');
-                        if (el) el.scrollIntoView({ behavior: 'smooth' });
-                    }}
+                    onClick={() => navigate('/contact')}
                 >
                     Contact
                 </li>
