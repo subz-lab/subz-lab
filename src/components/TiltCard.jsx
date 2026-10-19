@@ -50,7 +50,7 @@ const TiltCard = ({ children, className = "" }) => {
                 rotateX,
                 transformStyle: "preserve-3d",
             }}
-            className={`relative rounded-2xl border border-[var(--border)] bg-[var(--card-bg)] p-6 transition-all duration-700 hover:border-white/20 ${className}`}
+            className={`relative rounded-xl border border-[var(--border)] bg-[var(--card-bg)] p-6 transition-all duration-700 hover:border-white/20 ${className}`}
         >
             <div
                 style={{
@@ -64,7 +64,7 @@ const TiltCard = ({ children, className = "" }) => {
 
             {/* Glossy Overlay */}
             <motion.div
-                className="absolute inset-0 z-0 bg-gradient-to-br from-[var(--border)] to-transparent opacity-0 transition-opacity group-hover:opacity-100 pointer-events-none rounded-2xl"
+                className="absolute inset-0 z-0 bg-gradient-to-br from-[var(--border)] to-transparent opacity-0 transition-opacity group-hover:opacity-100 pointer-events-none rounded-xl"
                 style={{
                     transform: "translateZ(0px)",
                 }}

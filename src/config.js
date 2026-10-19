@@ -4,7 +4,7 @@ export const config = {
     meta: {
         title: "Subodh Kudle - Portfolio",
         description: "Computer Engineering Student Portfolio",
-        themeColor: "#050505",
+        themeColor: "#090e17",
     },
 
     // PERSONAL IDENTITY
@@ -12,25 +12,25 @@ export const config = {
         firstName: "Subodh",
         lastName: "Kudle",
         logoText: "Subodh.K", // Used in Navbar
-        tagline: "Engineering Ideas Into Digital Experiences",
-        shortIntro: "Computer Engineering student passionate about building cinematic websites, AI-powered tools, and real-world full stack projects using modern technologies.",
+        tagline: "Architecting Intelligent Systems & Immersive Interfaces",
+        shortIntro: "Computer Engineering student specialized in constructing high-performance web platforms, automation backends, and responsive design systems.",
         heroIntros: {
             small: "Hey, I’m",
             // The large name is derived from firstName + lastName, but can be customized here if needed.
         },
         skillIndicators: [
-            { id: "#01", label: "Full Stack Development" },
-            { id: "#02", label: "AI Web Experiences" },
-            { id: "#03", label: "Automation & Tools" },
-            { id: "#04", label: "Creative Frontend" },
+            { id: "#01", label: "Full Stack Engineering" },
+            { id: "#02", label: "Intelligent Systems" },
+            { id: "#03", label: "Automation Architectures" },
+            { id: "#04", label: "Premium Interactions" },
         ],
     },
 
     // THEME
     theme: {
-        accent: "#646cff", // User can change this color code
-        bg: "#050505",
-        text: "#ffffff",
+        accent: "#00F0FF", // Neural Aegis Cyan
+        bg: "#090e17",
+        text: "#dbe6fe",
     },
 
     // SOCIAL LINKS
@@ -42,14 +42,14 @@ export const config = {
 
     // HERO
     hero: {
-        headline: "Building Modern Web Apps, AI Tools & Animated Experiences",
-        subtext: "Computer Engineering student passionate about building cinematic websites, AI-powered tools, and real-world full stack projects using modern technologies.",
+        headline: "Building Authoritative Web Applications & Intelligent Automation Networks",
+        subtext: "Computer Engineering student designing software at the intersection of logical speed, robust scalability, and rich interface design.",
     },
 
     // SECTIONS
     about: {
-        title: "Engineering Ideas Into Digital Experiences",
-        bio: "I am a Computer Engineering student with a deep passion for building software that solves real-world problems. My journey started with simple scripts and has evolved into full-stack web applications and AI tools. I love bridging the gap between improved logic and beautiful design.",
+        title: "Architecting Systems With Precision",
+        bio: "I am an engineering student devoted to building software systems that bridge high-level abstraction with concrete, lightning-fast execution. My journey encompasses automated scripts, machine learning pipelines, and full-stack environments. Guided by architectural discipline and modern aesthetics, I turn complex requirements into robust and delightful products.",
         education: "B.E. in Computer Engineering",
         interests: ["Web Development", "Artificial Intelligence", "System Design", "UI/UX"],
     },
@@ -72,13 +72,45 @@ export const config = {
 
     projects: [
         {
-            title: "Project Alpha",
-            description: "A full-stack AI platform helper.",
-            tech: ["React", "Node.js", "OpenAI API"],
+            title: "TrustNet AI",
+            description: "Multi-model deepfake detector and decentralized media validation protocol.",
+            tech: ["React", "Python", "TensorFlow", "FastAPI", "Solidity"],
             details: {
-                problem: "Traditional task management tools lacks AI-driven prioritization, leading to user overwhelm.",
-                solution: "Developed an intelligent layer that analyzes task deadlines and complexity using LLMs to suggest the most optimal workflow.",
-                result: "Increased reported user productivity by 40% and reduced 'decision fatigue' for project managers.",
+                problem: "Rapid proliferation of digital misinformation and synthetic deepfakes undermining media trust.",
+                solution: "Developed a multi-stage pipeline utilizing convolutional neural networks (CNNs) for face-swap detection, coupled with a lightweight smart contract registry to index verified sources.",
+                result: "Selected for Google Solution Challenge 2026; achieved 94.2% detection accuracy on synthetic test datasets.",
+                gallery: ["https://images.unsplash.com/photo-1639762681485-074b7f938ba0", "https://images.unsplash.com/photo-1551288049-bebda4e38f71"]
+            },
+            links: {
+                demo: "#",
+                github: "#",
+            },
+            image: "https://images.unsplash.com/photo-1639762681485-074b7f938ba0",
+        },
+        {
+            title: "CampusChain",
+            description: "Decentralized academic credential ledger and cryptographic badge validation registry.",
+            tech: ["Next.js", "Solidity", "Hardhat", "Ethers.js", "IPFS"],
+            details: {
+                problem: "Academic credential fraud and slow, manual background verification steps by employers.",
+                solution: "Created a secure dApp that allows accredited universities to issue tamper-proof certificates as non-transferable soulbound tokens (SBTs) stored on IPFS.",
+                result: "Reduced average verification turnaround time from days to sub-second cryptographic checks.",
+                gallery: ["https://images.unsplash.com/photo-1557200134-90327ee9fafa", "https://images.unsplash.com/photo-1504868584819-f8e90526354c"]
+            },
+            links: {
+                demo: "#",
+                github: "#",
+            },
+            image: "https://images.unsplash.com/photo-1557200134-90327ee9fafa",
+        },
+        {
+            title: "NeuralTask AI",
+            description: "High-throughput cognitive task scheduler utilizing custom LLM prioritization agents.",
+            tech: ["React", "Node.js", "LangChain", "OpenAI"],
+            details: {
+                problem: "Standard priority models fail to adapt to fluid, context-dependent engineering workloads, leading to task saturation.",
+                solution: "Engineered a vector-space scheduling assistant that constructs semantic weights based on user bios and upcoming sprint constraints.",
+                result: "Optimized personal pipeline velocity by 35% and drastically reduced micro-task decision overhead.",
                 gallery: ["https://images.unsplash.com/photo-1555066931-4365d14bab8c", "https://images.unsplash.com/photo-1551288049-bebda4e38f71"]
             },
             links: {
@@ -88,13 +120,13 @@ export const config = {
             image: "https://images.unsplash.com/photo-1555066931-4365d14bab8c",
         },
         {
-            title: "Project Beta",
-            description: "Automated workflow tool for students.",
-            tech: ["Python", "n8n", "AWS"],
+            title: "SynapseFlow",
+            description: "Serverless multi-platform academic sync and calendar automation node.",
+            tech: ["Python", "n8n", "Docker", "PostgreSQL"],
             details: {
-                problem: "Students spend hours manually syncing assignments from multiple LMS platforms into their calendars.",
-                solution: "Built a serverless automation engine using n8n that scrapes and pushes homework schedules into a unified Notion dashboard.",
-                result: "Saved an average of 3 hours per week for 200+ beta testers during the initial pilot.",
+                problem: "Fragmented educational and corporate portals present siloed calendars, making proactive planning manual and error-prone.",
+                solution: "Designed a centralized n8n engine connected to serverless cron tasks to automatically ingest, normalize, and sync updates to Notion databases.",
+                result: "Saves 4+ hours weekly with 99.8% uptime across daily scheduled automation sweeps.",
                 gallery: ["https://images.unsplash.com/photo-1460925895917-afdab827c52f", "https://images.unsplash.com/photo-1504868584819-f8e90526354c"]
             },
             links: {
@@ -104,13 +136,13 @@ export const config = {
             image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f",
         },
         {
-            title: "Portfolio V1",
-            description: "My first personal website.",
-            tech: ["HTML", "CSS", "JS"],
+            title: "Aegis Portfolio",
+            description: "Modern high-end single page application with custom canvas parallax frame-loading mechanisms.",
+            tech: ["React", "Framer Motion", "Lenis", "Tailwind CSS"],
             details: {
-                problem: "Needed a digital identity to showcase engineering skills beyond a simple PDF resume.",
-                solution: "Created a lightweight, zero-dependency site focusing on performance and clean, accessible typography.",
-                result: "Lighthouse audit score of 100/100 and served as my primary networking tool during my freshman year.",
+                problem: "Standard web portfolios rely on static templates that fail to capture the premium, cinematic nature of modern interfaces.",
+                solution: "Engineered a custom frame preloading hook with HTML5 Canvas animation loops, coupled with Lenis inertia scrolling.",
+                result: "Achieved fluid 60FPS scroll performance and 100/100 Lighthouse metrics on desktop platforms.",
                 gallery: ["https://images.unsplash.com/photo-1498050108023-c5249f4df085", "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8"]
             },
             links: {

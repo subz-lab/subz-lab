@@ -1,24 +1,21 @@
 :root {
-  /* Stealth Mode (Default) */
-  --bg: #050505;
-  --text: #ffffff;
-  --border: rgba(255, 255, 255, 0.1);
-  --card-bg: rgba(255, 255, 255, 0.05);
-  --accent: #3b82f6;
-  /* Modern Blue */
-  --accent-glow: rgba(59, 130, 246, 0.2);
-  --prose-text: #9ca3af;
+  /* Neural Aegis Theme (Default) */
+  --bg: #090e17;
+  --text: #dbe6fe;
+  --border: rgba(107, 118, 138, 0.15);
+  --card-bg: #121a27;
+  --accent: #00F0FF;
+  --accent-glow: rgba(0, 240, 255, 0.15);
+  --prose-text: #a1abc2;
 }
 
 .light-mode {
-  /* Executive Mode */
+  /* Executive Mode (Fallback Light) */
   --bg: #f5f5f7;
-  /* Apple-style off-white */
   --text: #1d1d1f;
   --border: rgba(0, 0, 0, 0.1);
   --card-bg: rgba(255, 255, 255, 0.8);
   --accent: #0071e3;
-  /* Executive Blue */
   --accent-glow: rgba(0, 113, 227, 0.1);
   --prose-text: #424245;
 }
@@ -31,13 +28,17 @@
   body {
     background-color: var(--bg);
     color: var(--text);
-    @apply antialiased overflow-x-hidden transition-colors duration-700;
+    @apply antialiased overflow-x-hidden font-sans transition-colors duration-700;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-display tracking-tight;
   }
 
   /* Custom Selection */
   ::selection {
     background-color: var(--accent);
-    color: white;
+    color: #090e17;
   }
 
   /* Hide default cursor on desktop when using custom cursor */

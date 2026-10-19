@@ -140,8 +140,8 @@ const Experience = () => {
                                     }}
                                     className="absolute w-full max-w-[600px] cursor-grab active:cursor-grabbing px-6"
                                 >
-                                    <div className={`p-[1px] rounded-[2.5rem] transition-all duration-700 ${isCenter ? 'holographic-border shadow-[0_0_60px_-15px_rgba(59,130,246,0.4)] scale-105' : ''}`}>
-                                        <TiltCard className={`group bg-black/80 backdrop-blur-3xl border-white/5 !p-8 md:!p-12 transition-all duration-500 ${!isCenter && 'opacity-50 grayscale'}`}>
+                                    <div className={`p-[1px] rounded-xl transition-all duration-700 ${isCenter ? 'holographic-border shadow-[0_0_60px_-15px_rgba(0,240,255,0.4)] scale-105' : ''}`}>
+                                        <TiltCard className={`group bg-[var(--card-bg)]/80 backdrop-blur-3xl border-[var(--border)] !p-8 md:!p-12 transition-all duration-500 ${!isCenter && 'opacity-50 grayscale'}`}>
                                             <div className="flex flex-col gap-8">
                                                 <div className="flex items-center justify-between">
                                                     <div className="flex items-center gap-6">

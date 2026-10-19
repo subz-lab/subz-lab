@@ -6,7 +6,7 @@ import MagneticButton from '../MagneticButton';
 
 const Footer = () => {
     return (
-        <footer id="footer" className="relative py-12 bg-black border-t border-white/5 overflow-hidden">
+        <footer id="footer" className="relative py-12 bg-[var(--bg)] border-t border-[var(--border)] overflow-hidden">
             <div className="relative z-10 max-w-6xl mx-auto px-6">
                 <div className="flex flex-col md:flex-row justify-between items-center gap-8 text-gray-500">
                     <div className="flex flex-col items-center md:items-start text-center md:text-left">

@@ -35,7 +35,7 @@ const Projects = () => {
                     {config.projects.map((project, idx) => (
                         <TiltCard
                             key={idx}
-                            className="group !p-0 overflow-hidden bg-gray-900/40 border-white/5 hover:border-white/20 transition-all duration-500 rounded-[2.5rem]"
+                            className="group !p-0 overflow-hidden bg-[var(--card-bg)] border-[var(--border)] hover:border-primary/20 transition-all duration-500 rounded-xl"
                         >
                             <div className="flex flex-col h-full">
                                 {/* Image Container */}
@@ -79,7 +79,7 @@ const Projects = () => {
                                         <MagneticButton strength={0.4} className="rounded-full">
                                             <button
                                                 onClick={() => openModal(project)}
-                                                className="px-6 py-3 bg-white text-black rounded-full font-bold text-sm flex items-center gap-3 hover:bg-blue-50 transition-colors"
+                                                className="px-6 py-3 bg-gradient-to-r from-primary to-primary-dim text-dark rounded-full font-bold text-sm flex items-center gap-3 hover:shadow-[0_0_15px_rgba(0,240,255,0.45)] transition-all duration-300"
                                             >
                                                 Case Study
                                                 <span className="text-lg">→</span>
