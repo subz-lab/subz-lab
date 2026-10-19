@@ -72,84 +72,76 @@ export const config = {
 
     projects: [
         {
-            title: "TrustNet AI",
-            description: "Multi-model deepfake detector and decentralized media validation protocol.",
-            tech: ["React", "Python", "TensorFlow", "FastAPI", "Solidity"],
+            title: "A.X.I.O.M.",
+            subtitle: "Enterprise Decision Intelligence & Multi-Agent RAG",
+            description: "Enterprise decision intelligence and multi-agent RAG system for automated root-cause analysis across enterprise data.",
+            tech: ["Python", "LangGraph", "FastAPI", "ChromaDB", "Neo4j"],
+            bullets: [
+                "Developed a multi-agent AI workflow for automated root-cause analysis and information retrieval across enterprise data.",
+                "Integrated vector search, knowledge graphs, and response verification to generate evidence-backed decision reports."
+            ],
             details: {
-                problem: "Rapid proliferation of digital misinformation and synthetic deepfakes undermining media trust.",
-                solution: "Developed a multi-stage pipeline utilizing convolutional neural networks (CNNs) for face-swap detection, coupled with a lightweight smart contract registry to index verified sources.",
-                result: "Selected for Google Solution Challenge 2026; achieved 94.2% detection accuracy on synthetic test datasets.",
-                gallery: ["https://images.unsplash.com/photo-1639762681485-074b7f938ba0", "https://images.unsplash.com/photo-1551288049-bebda4e38f71"]
+                problem: "Enterprise data silos and incident response bottlenecks cause delays and lack traceable root-cause explanations across distributed architectures.",
+                solution: "Developed a multi-agent AI workflow using LangGraph, integrating ChromaDB vector search and Neo4j knowledge graphs to automate root-cause analysis and information retrieval.",
+                result: "Integrated multi-stage response verification pipelines to deliver verified, evidence-backed decision reports with zero hallucinations.",
+                gallery: [
+                    "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=1200&q=80",
+                    "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1200&q=80"
+                ]
             },
             links: {
                 demo: "#",
-                github: "#",
+                github: "https://github.com/subz-lab/ai-agent",
             },
-            image: "https://images.unsplash.com/photo-1639762681485-074b7f938ba0",
+            image: "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=1200&q=80",
+        },
+        {
+            title: "The Noir",
+            subtitle: "AI-Powered SOC Automation",
+            description: "End-to-end SOC pipeline utilizing ML for threat detection, LLM incident reports, and ReAct-based SOAR playbooks.",
+            tech: ["Python", "ML", "LLM", "SOAR"],
+            bullets: [
+                "Developed an end-to-end SOC pipeline using ML to detect and classify cyber threats from log data.",
+                "Integrated LLM-generated incident reports and ReAct-based SOAR workflows to automate threat response."
+            ],
+            details: {
+                problem: "Security Operations Centers face alert fatigue and prolonged containment windows when manually inspecting large-scale log streams.",
+                solution: "Developed an end-to-end SOC pipeline using ML to detect and classify cyber threats from log data, coupled with autonomous ReAct playbooks.",
+                result: "Accelerated threat mitigation with instant LLM-generated incident summaries and automated SOAR response workflows.",
+                gallery: [
+                    "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=1200&q=80",
+                    "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=1200&q=80"
+                ]
+            },
+            links: {
+                demo: "#",
+                github: "https://github.com/subz-lab/The-Noir",
+            },
+            image: "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=1200&q=80",
         },
         {
             title: "CampusChain",
-            description: "Decentralized academic credential ledger and cryptographic badge validation registry.",
-            tech: ["Next.js", "Solidity", "Hardhat", "Ethers.js", "IPFS"],
+            subtitle: "Blockchain Campus Ecosystem",
+            description: "Unified campus payment platform with custom blockchain ledger, QR transactions, P2P transfers, and NFT ticketing.",
+            tech: ["Next.js", "Supabase", "JWT", "QR"],
+            bullets: [
+                "Built a campus payment platform featuring a custom blockchain ledger, QR payments, P2P transfers, and NFT-based event ticketing.",
+                "Implemented AI-driven fraud detection with severity classification and real-time transaction synchronization."
+            ],
             details: {
-                problem: "Academic credential fraud and slow, manual background verification steps by employers.",
-                solution: "Created a secure dApp that allows accredited universities to issue tamper-proof certificates as non-transferable soulbound tokens (SBTs) stored on IPFS.",
-                result: "Reduced average verification turnaround time from days to sub-second cryptographic checks.",
-                gallery: ["https://images.unsplash.com/photo-1557200134-90327ee9fafa", "https://images.unsplash.com/photo-1504868584819-f8e90526354c"]
+                problem: "Traditional campus payment points and ticket distribution suffer from fraud, transaction delay, and third-party fee overhead.",
+                solution: "Built a campus payment platform featuring a custom blockchain ledger, QR payments, P2P transfers, and NFT-based event ticketing with Next.js and Supabase.",
+                result: "Implemented AI-driven fraud detection with severity classification and real-time transaction synchronization across campus merchants.",
+                gallery: [
+                    "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?auto=format&fit=crop&w=1200&q=80",
+                    "https://images.unsplash.com/photo-1559526324-4b87b5e36e44?auto=format&fit=crop&w=1200&q=80"
+                ]
             },
             links: {
                 demo: "#",
-                github: "#",
+                github: "https://github.com/subz-lab/campuschain",
             },
-            image: "https://images.unsplash.com/photo-1557200134-90327ee9fafa",
-        },
-        {
-            title: "NeuralTask AI",
-            description: "High-throughput cognitive task scheduler utilizing custom LLM prioritization agents.",
-            tech: ["React", "Node.js", "LangChain", "OpenAI"],
-            details: {
-                problem: "Standard priority models fail to adapt to fluid, context-dependent engineering workloads, leading to task saturation.",
-                solution: "Engineered a vector-space scheduling assistant that constructs semantic weights based on user bios and upcoming sprint constraints.",
-                result: "Optimized personal pipeline velocity by 35% and drastically reduced micro-task decision overhead.",
-                gallery: ["https://images.unsplash.com/photo-1555066931-4365d14bab8c", "https://images.unsplash.com/photo-1551288049-bebda4e38f71"]
-            },
-            links: {
-                demo: "#",
-                github: "#",
-            },
-            image: "https://images.unsplash.com/photo-1555066931-4365d14bab8c",
-        },
-        {
-            title: "SynapseFlow",
-            description: "Serverless multi-platform academic sync and calendar automation node.",
-            tech: ["Python", "n8n", "Docker", "PostgreSQL"],
-            details: {
-                problem: "Fragmented educational and corporate portals present siloed calendars, making proactive planning manual and error-prone.",
-                solution: "Designed a centralized n8n engine connected to serverless cron tasks to automatically ingest, normalize, and sync updates to Notion databases.",
-                result: "Saves 4+ hours weekly with 99.8% uptime across daily scheduled automation sweeps.",
-                gallery: ["https://images.unsplash.com/photo-1460925895917-afdab827c52f", "https://images.unsplash.com/photo-1504868584819-f8e90526354c"]
-            },
-            links: {
-                demo: "#",
-                github: "#",
-            },
-            image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f",
-        },
-        {
-            title: "Aegis Portfolio",
-            description: "Modern high-end single page application with custom canvas parallax frame-loading mechanisms.",
-            tech: ["React", "Framer Motion", "Lenis", "Tailwind CSS"],
-            details: {
-                problem: "Standard web portfolios rely on static templates that fail to capture the premium, cinematic nature of modern interfaces.",
-                solution: "Engineered a custom frame preloading hook with HTML5 Canvas animation loops, coupled with Lenis inertia scrolling.",
-                result: "Achieved fluid 60FPS scroll performance and 100/100 Lighthouse metrics on desktop platforms.",
-                gallery: ["https://images.unsplash.com/photo-1498050108023-c5249f4df085", "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8"]
-            },
-            links: {
-                demo: "#",
-                github: "#",
-            },
-            image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085",
+            image: "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?auto=format&fit=crop&w=1200&q=80",
         },
     ],
 
